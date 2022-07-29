@@ -15,6 +15,9 @@ export default function PostsRoute() {
 
   return (
     <main>
+      <Link to="admin" className="text-redd-699 underline">
+        Admin
+      </Link>
       <h1>Posts</h1>
       <ul>
         {posts.map((post) => (
